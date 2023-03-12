@@ -1,0 +1,10 @@
+.header_title {
+  color: var(--text-primary-color);
+  font-weight: 800;
+  font-size: 24px;
+}
+.header_discription {
+  color: var(--text-secondary-color);
+  font-weight: 600;
+  margin-top: 5px;
+}

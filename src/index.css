@@ -1,13 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100&display=swap");
+
+/* colors */
+:root {
+  --card-color: white;
+  --icon-secondary-color: gray;
+  --body-bg-color: #f8f8f8;
+  --text-primary-color: #44596e;
+  --text-secondary-color: #607489;
+  --text-link-color: blue;
+  --icon-primary-color: #0098e5;
+  --text-white-color: white;
+  --btn-black-color: #111827;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* default html element settings */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+html {
+  font-family: "Poppins";
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #303030;
+}
+body {
+  margin: 0;
+  background-color: var(--body-bg-color);
+  scroll-behavior: smooth;
+}
+img {
+  width: 100%;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+a {
+  text-decoration: none;
+}
+.black_btn {
+  background-color: var(--btn-black-color) !important;
+  font-size: 12px !important;
 }

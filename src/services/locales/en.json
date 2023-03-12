@@ -1,0 +1,34 @@
+{
+  "appName": "Oromiya E-service Portal",
+  "appNametwo": "E-service Portal",
+  "home": "Home",
+  "Service": "Service",
+  "Topics": "Topics",
+  "Providers": "Providers",
+  "MyApplication": "MyApplication",
+  "More": "More",
+
+  "homeIntroWelcome": "Welcome To Oromiya Region Electronic Service",
+  "homeIntroDiscription": " The Ethiopian Government Electronic Services Portal has been developed to provide electronic public services to citizens, non-citizens, businesses, and governmental & non-governmental organizations.",
+  "Search": "Search",
+  "portalVisitors": "E-Services Portal Visitors",
+  "availableServiceProviders": "Available Service Providers",
+  "ProcessedCustomer": "Processed Customer",
+  "OnlineGovernmentServices": "Online Government Services",
+  "RegisteredCustomers": "Registered Customers",
+
+  "ListOfservices": "List Of services",
+  "Go": "Go",
+  "service_discription": " The E-Services Portal categorizes the various public services into topics and sub-topics for ease of locating a particular service. You can select a public service from the list to get possible service providers. By selecting a service provider of your choice, you will get detail instruction on how to request the service.",
+
+  "login": "login",
+  "registration": "Registration",
+  "AccountRegisteration": "Account Registeration",
+  "AccountType": "Account Type",
+  "Personal": "Personal",
+  "Organization": "Organization",
+  "Register": "Register",
+  "forgetPassword": "Did you forget Your password",
+  "submit": "submit",
+  "apply": "Apply"
+}

@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import "./App.css";
+import MySidebar from "./componenets/Sidebar/Sidebar";
+import { ProSidebarProvider } from "react-pro-sidebar";
+import Topbar from "./componenets/Navbar/Navbar";
+import { Routes, Route } from "react-router-dom";
+import Dashboard from "./pages/dashboard/Dashboard";
+import AppUsers from "./pages/users/Users";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <ProSidebarProvider>
+        <MySidebar />
+      </ProSidebarProvider>
+      <div className="content">
+        <Topbar></Topbar>
+        <Routes>
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/users" element={<AppUsers></AppUsers>} />
+        </Routes>
+      </div>
     </div>
   );
 }
